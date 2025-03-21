@@ -21,6 +21,20 @@ st.sidebar.markdown("**Profesor:** Omar Velázquez López")
 st.sidebar.markdown("**Estudiante:** Javier Horacio Pérez Ricárdez")  
 st.sidebar.markdown("**26 de marzo del 2025**")
 
+# Leer el archivo PDF en modo binario
+pdf_path = "Proyecto_final_Javier_Horacio_Perez_Ricardez.pdf"
+with open(pdf_path, "rb") as pdf_file:
+    pdf_bytes = pdf_file.read()
+
+# Botón de descarga
+st.sidebar.download_button(
+    label="📄 Descargar Proyecto Final",
+    data=pdf_bytes,
+    file_name="Proyecto final_Javier Horacio Perez Ricardez.pdf",
+    mime="application/pdf"
+)
+
+
 
 # Título de la aplicación
 st.title("Modelo de Regresión Logística: Predicción de la Calidad del Vino Tinto")
