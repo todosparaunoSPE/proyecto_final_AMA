@@ -15,6 +15,13 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.sidebar.markdown("**Universidad Panamericana**")  
+st.sidebar.markdown("**Aprendizaje Máquina Aplicado**")  
+st.sidebar.markdown("**Profesor:** Omar Velázquez López")  
+st.sidebar.markdown("**Estudiante:** Javier Horacio Pérez Ricárdez")  
+st.sidebar.markdown("**26 de marzo del 2025**")
+
+
 # Título de la aplicación
 st.title("Modelo de Regresión Logística: Predicción de la Calidad del Vino Tinto")
 
