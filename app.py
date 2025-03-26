@@ -281,6 +281,10 @@ if st.session_state.step >= 9:
     st.write("- El modelo se entrenó utilizando los datos de entrenamiento (`X_train` y `y_train`).")
     st.write("- El método `fit()` ajustó los coeficientes del modelo para minimizar la función de costo.")
 
+    ##########################
+    print(model.multi_class)
+    
+
     # Botón para continuar
     if st.button("Mostrar siguiente paso", key="button_9"):
         st.session_state.step = 10
