@@ -282,7 +282,7 @@ if st.session_state.step >= 9:
     st.write("- El método `fit()` ajustó los coeficientes del modelo para minimizar la función de costo.")
 
     ##########################
-    print(model.multi_class)
+    st.write(model.multi_class)
     
 
     # Botón para continuar
