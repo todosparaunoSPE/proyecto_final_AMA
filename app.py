@@ -30,7 +30,7 @@ with open(pdf_path, "rb") as pdf_file:
 st.sidebar.download_button(
     label="📄 Descargar Proyecto Final",
     data=pdf_bytes,
-    file_name="Proyecto final_Javier Horacio Perez Ricardez.pdf",
+    file_name="Proyecto_final_Javier_Horacio_Perez_Ricardez.pdf",
     mime="application/pdf"
 )
 
